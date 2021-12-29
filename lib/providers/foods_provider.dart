@@ -46,7 +46,7 @@ class Foods extends ChangeNotifier{
   }
 
   Food findById(String id) {
-    return _items.firstWhere((prod) => prod.id == id);
+    return _items.firstWhere((productListItem) => productListItem.id == id);
   }
 
   void addFood(Food value) {

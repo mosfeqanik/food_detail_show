@@ -31,7 +31,7 @@ class FoodItem extends StatelessWidget {
           backgroundColor: Colors.black45,
           leading: IconButton(
             icon: Icon(Icons.favorite),
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).colorScheme.secondary,
             onPressed: () {},
           ),
           title: Text(
@@ -43,7 +43,7 @@ class FoodItem extends StatelessWidget {
               Icons.shopping_cart,
             ),
             onPressed: () {},
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).colorScheme.secondary,
           ),
         ),
       ),
